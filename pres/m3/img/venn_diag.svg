@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="venn_diag.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-212.05094"
+     inkscape:cy="589.09458"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4764"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <ellipse
+         ry="22.492704"
+         rx="22.680143"
+         cy="38.652798"
+         cx="46.490002"
+         id="path4485"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.63971376;stroke-miterlimit:4;stroke-dasharray:none" />
+      <ellipse
+         style="opacity:1;fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.63971376;stroke-miterlimit:4;stroke-dasharray:none"
+         id="ellipse4487"
+         cx="73.477501"
+         cy="38.652798"
+         rx="22.680143"
+         ry="22.492704" />
+      <text
+         id="text4491"
+         y="10.305058"
+         x="40.859226"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="10.305058"
+           x="40.859226"
+           id="tspan4489"
+           sodipodi:role="line">P(Not A) = 1 - P(A)</tspan></text>
+      <text
+         id="text4495"
+         y="38.464287"
+         x="43.278271"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="38.464287"
+           x="43.278271"
+           id="tspan4493"
+           sodipodi:role="line">A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="75.784218"
+         y="38.653275"
+         id="text4687"><tspan
+           sodipodi:role="line"
+           id="tspan4685"
+           x="75.784218"
+           y="38.653275"
+           style="stroke-width:0.26458332">Not A</tspan></text>
+      <path
+         id="ellipse4689"
+         transform="scale(0.26458333)"
+         d="M 175.71094 301.07812 A 85.720226 85.011795 0 0 0 89.990234 386.08984 A 85.720226 85.011795 0 0 0 175.71094 471.10156 A 85.720226 85.011795 0 0 0 226.71094 454.29297 A 85.720227 85.011796 0 0 0 277.71094 471.10156 A 85.720227 85.011796 0 0 0 363.42969 386.08984 A 85.720227 85.011796 0 0 0 277.71094 301.07812 A 85.720227 85.011796 0 0 0 226.70898 317.87891 A 85.720226 85.011795 0 0 0 175.71094 301.07812 z "
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2.41781569;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="40.859226"
+         y="73.805061"
+         id="text4695"><tspan
+           sodipodi:role="line"
+           id="tspan4693"
+           x="40.859226"
+           y="73.805061"
+           style="stroke-width:0.26458332">P(A or B) = P(A) + P(B)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="43.278271"
+         y="101.96427"
+         id="text4699"><tspan
+           sodipodi:role="line"
+           id="tspan4697"
+           x="43.278271"
+           y="101.96427"
+           style="stroke-width:0.26458332">A</tspan></text>
+      <text
+         id="text4703"
+         y="102.15326"
+         x="75.784218"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="102.15326"
+           x="75.784218"
+           id="tspan4701"
+           sodipodi:role="line">B</tspan></text>
+      <path
+         id="ellipse4719"
+         transform="scale(0.26458333)"
+         d="M 226.70508 577.88086 A 85.720227 85.011796 0 0 0 191.99023 646.08984 A 85.720227 85.011796 0 0 0 226.7168 714.29688 A 85.720227 85.011796 0 0 0 261.42969 646.08984 A 85.720227 85.011796 0 0 0 226.70508 577.88086 z "
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:2.41781569;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="40.859226"
+         y="142.59673"
+         id="text4725"><tspan
+           sodipodi:role="line"
+           id="tspan4723"
+           x="40.859226"
+           y="142.59673"
+           style="stroke-width:0.26458332">P(A and B) = P(A)*P(B)</tspan></text>
+      <text
+         id="text4729"
+         y="170.75598"
+         x="43.278271"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="170.75598"
+           x="43.278271"
+           id="tspan4727"
+           sodipodi:role="line">A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="75.784218"
+         y="170.94496"
+         id="text4733"><tspan
+           sodipodi:role="line"
+           id="tspan4731"
+           x="75.784218"
+           y="170.94496"
+           style="stroke-width:0.26458332">B</tspan></text>
+      <ellipse
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.63971376;stroke-miterlimit:4;stroke-dasharray:none"
+         id="ellipse4736"
+         cx="46.490002"
+         cy="170.94449"
+         rx="22.680143"
+         ry="22.492704" />
+      <ellipse
+         ry="22.492704"
+         rx="22.680143"
+         cy="170.94449"
+         cx="73.477501"
+         id="ellipse4738"
+         style="opacity:1;fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.63971376;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>

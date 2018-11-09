@@ -1,0 +1,57 @@
+---
+title: 'Lab 3: Visualizing information'
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Instructions
+
+Follow the assignment step-by-step. Create a Microsoft Word document and name your $.doc(x)$ file in a following format: $your\_surname\_lab3.rmd$. For example,
+
+
+```{r cars, eval=FALSE}
+sichinava_lab3.doc(x)
+```
+
+In this document you will copy the results of your analysis.
+
+## Getting started
+### Why we need to visualize data?
+
+Data visualization represent the backbone of any quantitative analysis. Usually it is quite challenging to digest large amounts of information, and statistical tests aren't always that straightforward. On top of that, numbers aren't necessarily attractive to people, and communicating your findings with nice visuals are always helpful.
+
+SPSS might not have advanced capabilities of data visualization held by Matlab, R and the like, although its charting resources are quite decent. In this exercise, we will go through the basics of data visualization.
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_1.PNG", 
+    dpi = NULL)
+
+```
+
+Load Caucasus Barometer data to SPSS and get started. Make negative values as missing and save the dataset.
+
+SPSS has dedicated menu item "Graphs" where it keeps legacy dialogue windows for charting. Click Graphs>>Chart Builder. There are many types of charts. Think of them as specific types of $descriptive statistics$ being it univariate, bivariate, showing dispersion, difference between groups, and so forth. 
+
+First step for any data analysis is to examine how variables are distributed. Depending on the measurement scale, we use specific types of charts. If our variable is continuous, as it is in case of variable EDUYRS, we need either make histograms, or so called mean bars. For histograms, go to Graphs >> Legacy Dialogs >> Histogram, drag and drop EDUYRS to cell "Variable" and click "Display normal curve". Here you go! You can adjust the graph, by double-clicking on it. In the chart editor, edit font type, change the color of bars, remove text box showing descriptive statistics, and add a conscise title to the chart. After you have finished adjusting the chart, close chart editor, and copy your chart to the word file.
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_2.PNG", 
+    dpi = NULL)
+
+```
+
+You might want use mean charts when dealing with ordinal scale variables (those measured for instance, on 5-point, 7-point, or 11-point scales). Although for smaller scales frequency charts are more informative. Same goes for categorical variables. Let's take variable GALLTRU. In order to make proper chart, you should tell SPSS on what scale variables are measured. For this, go to "Variable view", find GALLTRU (yes, ctrl+F works!), and select "Ordinal" under "Measure". Now navigate to Graphs >> Chart Builder. Select "Bar" and drag GALLTRU to the x-Axis. Here you can adjust the title of the chart and other properties. Hit "OK" - you can see the chart in the output! Copy the chart to your word document.
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_3.PNG", 
+    dpi = NULL)
+
+```
+
+
+## Phew. Done. How to submit my exercise?
+
+Zip your word document, the SPSS output file into one file and upload it to  [this link](https://www.dropbox.com/request/6RWLdhjrEGkim0EiJ6F6) before the start of our next meeting.

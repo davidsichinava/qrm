@@ -1,0 +1,68 @@
+% !Rnw weave = knitr
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+% \usepackage{fontspec}
+\usepackage{geometry, graphicx}
+ % you must load Sweave with the `noae` option
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\title{Lab 2: Political assassinations\\
+  \large Replicating Iqbal and Zorn, 2008}
+\author{David Sichinava}
+\date{\today}
+
+
+\begin{document}
+
+<<include=FALSE>>=
+library(knitr)
+opts_chunk$set(
+concordance=TRUE
+)
+@
+
+% \SweaveOpts{concordance=TRUE}
+\maketitle
+\section*{What we are up to in this assignment}
+\begin{itemize}
+\item Graphic user interface of SPSS
+\item Loading data into SPSS
+\item Labels, types, scales
+\item Simple visualizations
+\item Calculating simple descriptive statistics
+\item Calculating simple bivariate statistics
+\end{itemize}
+
+\section*{Instruction:}
+
+\paragraph{}
+Follow the assignment step-by-step. Name your $.doc(x)$ file in a following format: $your\_surname\_lab2.rmd$. For example,
+
+<<ch1, eval=FALSE>>=
+sichinava_lab2.doc(x)
+@
+
+\section*{Getting started}
+
+\subsection*{Graphical user interface}
+
+SPSS has a pretty simple graphical user interface, which might be familiar to any 
+
+Upload the file to \href{https://www.dropbox.com/request/6RWLdhjrEGkim0EiJ6F6}{this link} before the start of our next meeting.
+
+
+Good luck!
+
+
+\end{document}

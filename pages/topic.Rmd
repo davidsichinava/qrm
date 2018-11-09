@@ -1,0 +1,80 @@
+---
+title: "Topics"
+output: html_document
+
+---
+
+### Topic 1: Introduction
+
+#### ![](ico/teacher.png) Class:
+
+* General overview of the class;
+* Logistics;
+* Statistics: buzzwords
+* <img src="ico/teacher.png" alt="Drawing" style="width: 16px; vertical-align:middle;"/> 
+<a href="https://davidsichinava.github.io/qrm/pres/m1/meeting_1.html">Slides</a>
+
+
+![](ico/open-book.png) Reading:
+
++ Agresti & Finlay, chapters 1 and 2
+
+### Topic 2: Descriptive statistics
+
+![](ico/open-book.png) Reading:
+
++ Agresti & Finlay, chapter 3
+
+#### ![](ico/flask-outline.png) lab exercise:
+
+* SPSS user interface;
+	+ WYSIWYG versus programming interface;
+	+ Variable and data view
+* Loading data into SPSS;
+* Calculating basic statistics
+	+ central tendency;
+	+ dispersion;
+* Basics of bivariate statistics
+	+ contingency tables;
+	+ correlations;
+	+ simple linear regressions
+	
+* <img src="ico/teacher.png" alt="Drawing" style="width: 16px; vertical-align:middle;"/> 
+<a href="https://davidsichinava.github.io/qrm/pres/m2/meeting_2.html">Slides</a>
+* [Lab assignment](https://www.dropbox.com/s/xs9xgl04gm51cd1/lab2_print.docx?dl=0)
+* [Datasets](https://www.dropbox.com/sh/n8g768j74mgnngr/AADKExpJGvZuVMslt2STZbAra?dl=0)
+* Submit your assignment to this [link](https://www.dropbox.com/request/6RWLdhjrEGkim0EiJ6F6). _It is due before we start our next class_.
+
+### Topic 3: Probability distributions
+
+![](ico/open-book.png) Reading:
+
++ Agresti & Finlay, chapters 4-5
+
+#### ![](ico/flask-outline.png) lab exercise:
+
+* Visualizing data using SPSS;
+	
+* <img src="ico/teacher.png" alt="Drawing" style="width: 16px; vertical-align:middle;"/> 
+<a href="https://davidsichinava.github.io/qrm/pres/m3/meeting_3.html">Slides</a>
+* [Lab assignment](https://www.dropbox.com/s/n9mzjdk1483ocw6/lab3.docx?dl=0)
+* [Datasets](https://www.dropbox.com/s/2jw5jy6l4n41lcr/CB_2015_Regional_Only_Responses_140416.sav?dl=0)
+* Submit your assignment to this [link](https://www.dropbox.com/request/6h0C9Hzdmht4n8jqEQzf). _It is due before we start our next class_.
+
+
+### Topic 4: Estimation
+
+![](ico/open-book.png) Reading:
+
++ Agresti & Finlay, chapter 6
+
+#### ![](ico/flask-outline.png) lab exercise:
+
+* Data transformation in SPSS;
+	
+* <img src="ico/teacher.png" alt="Drawing" style="width: 16px; vertical-align:middle;"/> 
+<a href="https://davidsichinava.github.io/qrm/pres/m4/meeting_4.html">Slides</a>
+* [Lab assignment](https://www.dropbox.com/s/fnazv24hfc6pwjy/lab4.docx?dl=0)
+* [Datasets](https://www.dropbox.com/s/2jw5jy6l4n41lcr/CB_2015_Regional_Only_Responses_140416.sav?dl=0)
+* Submit your assignment to this [link](https://www.dropbox.com/request/Ltvt58ErL83EmqfR6zWV). _It is due this Friday evening_.
+

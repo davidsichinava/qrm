@@ -1,0 +1,12 @@
+---
+title: "Readings"
+output: html_document
+
+---
+
+### Key literature:
+
+* Agresti and Finlay's [Statistical Methods for Social Sciences](https://www.dropbox.com/s/z33sjtke5lwwwfh/Agresti%26Finlay.pdf?dl=0) and
+
+* Field's [Discovering Statistics Using SPSS](https://www.dropbox.com/s/7vrtlsoe9p51zyu/Field.pdf?dl=0)
+

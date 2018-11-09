@@ -1,0 +1,9 @@
+---
+title: "Syllabus, attendance, assessments"
+output: html_document
+
+---
+
+De-jure syllabus of this course can be found through [this link](https://www.dropbox.com/s/o2bh7lnt4gd7nnt/Quantitative%20research%20methods%20-%20statistics.doc?dl=0). I will follow it tentatively, although considering how our course goes, I'm gonna consider adding more advanced (and interesting) topics to our classes. To learn details, refer to the "Topics" page on this website.
+
+Attendance can be tracked through this [Google spreadsheet](https://docs.google.com/spreadsheets/d/12sAsAGxeZP5aK9T3TcZAgbCXhOVq6Nd57Cvd4n5hSKs/edit?usp=sharing)

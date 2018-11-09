@@ -1,0 +1,90 @@
+---
+title: 'Lab 1: Political Assasinations'
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Instructions
+
+Follow the assignment step-by-step. Create a Microsoft Word document and name your $.doc(x)$ file in a following format: $your\_surname\_lab2.rmd$. For example,
+
+
+```{r cars, eval=FALSE}
+sichinava_lab2.doc(x)
+```
+
+In this document you will copy the results of your analysis.
+
+## Getting started
+### Graphical user interface
+
+SPSS has a pretty simple graphical user interface, which might be familiar to any computer user. The top menu bar contains commands. Main menu items we are going to use throughout the course will be $Data$, $Transform$, $Analyze$, and $Graphs$.
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_1.PNG", 
+    dpi = NULL)
+
+```
+
+Now, let's load the dataset into SPSS. Go to File >> Open >> Dataset, navigate to the data folder where you Iqbal and Zorn dataset and click "Open". Voila! Easy right? SPSS can load multiple types of files, including Microsoft Excel, delimited text files, Stata files, etc.
+
+As you might notice, the user interface has a switcher in the lower left corner. It helps you to switch between $variable view$ and $data view$. Obviously, data view looks a little bit Microsoft Excel-ish (or, spreadsheet-ish). Here each column represents a $variable$ while each line is a $case$. For instance, variable $age$ will be a column, while we can find an age of a particular respondent in rows.
+
+Variable view gives us an overview of what kind of columns we have in the dataset (see below). Column Name lists all the variables (in our case, ccode, year, UNRESt, and so forth). Column Type describes whether the data stored in the column is numeric, text, or date. Column Label gives a short, conscise description of the variable. You can edit it - just double-click the corresponding cell and change the text! There are some more columns in Data view which we will cover a little bit later.
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_2.PNG", 
+    dpi = NULL)
+
+```
+
+
+I guess you have already noticed an annoying second window of SPSS which says $Output$. Indeed, all the analysis results will be previewed in this window. Let's get our hands dirty with some data. Iqbal and Zorn were looking at how the assassination of political leaders impacts political stability. Our variable of interest in this dataset is $assass$ which measures whether a leader in a particular year in a particular country met his (mostly) or her (rarely) death violently. 
+
+
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_3.PNG", 
+    dpi = NULL)
+
+```
+
+Question is how many assassinations were collected by the authors? In order to learn about that we have to look at the variable $assass$. But how? It's as simple as that: you go to Analyze menu, select Descriptive Statistics >> Frequencies, select variable $assass$ from the list and click OK. Now you can see that Output window pops up and there are corresponding frequency distribution of assassinations. How many assassinations were there? Copy the output to your word document.
+
+All right. Codes 0 and 1 are not that telling, are they? Therefore, we might want to $label$ the variable, that is, attach textual meanings to codes. In order to do so, you go to Variable view, find variable $assass$, click on a corresponding cell in Values column and fill up the form as shown below. Do not forget to click button "Add". Now go and re-run your frequencies. Can you notice any difference?
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_4.PNG", 
+    dpi = NULL)
+
+```
+
+Excellent, although you can only do frequencies for categorical, ordered, and binary variables. For numeric variables, frequencies are not that useful. Here you might want to calculate mean, median, and standard deviation, that is, measurements of central tendency and dispertion (in fact, frequency is also a measure of central tendency). The 'algorithm' is the same - you go to Analyze>>Descriptive statistics>>Frequencies, although additionally you click "statistics" and tick "Mean", "Median", "Standard deviation", "Quartiles". And then click OK.
+
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_4.PNG", 
+    dpi = NULL)
+
+```
+
+We are often interested in assessing the relations between two variables. The simplest way of doing this is running a correlation. It's also very simple. Let's examine whether there is a relationship between democracy (POLITYLAG) and political unrest in the country (UNREST). Go to Analyze >> Correlate >> Bivariate, select corresponding variables and click OK. Copy the output into your word file. What is the relationship between the two variables? Positive? Negative? How strong?
+
+
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_5.PNG", 
+    dpi = NULL)
+
+```
+
+
+That's all.
+
+
+## Phew. Done. How to submit my exercise?
+
+Zip your word document, the SPSS output file into one file and upload it to  [this link](https://www.dropbox.com/request/6RWLdhjrEGkim0EiJ6F6) before the start of our next meeting.

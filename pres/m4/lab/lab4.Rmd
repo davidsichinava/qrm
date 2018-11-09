@@ -1,0 +1,51 @@
+---
+title: 'Lab 4: Data Manipulation in SPSS'
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Instructions
+
+Follow the assignment step-by-step. Create a Microsoft Word document and name your $.doc(x)$ file in a following format: $your\_surname\_lab4.rmd$. For example,
+
+
+```{r cars, eval=FALSE}
+sichinava_lab4.doc(x)
+```
+
+In this document you will copy the results of your analysis.
+
+## Data manipulation
+### Recoding variables
+
+Many tasks in data analysis include changing the data, that is, calculating new variables, transforming scales, recoding and so forth. For instance, if you want to look at a particular characteristic of a respondent by age, you might want to group respondents by cohort, that is, by age groups. These tasks are very straightforward in SPSS.
+
+First of all, let's recode continuous variables into categories. All transformation tasks in SPSS are located into Transform menu. Grouping variable values are called "recoding" in SPSS jargon. You go to Transform>>Recode into Different Variables and select your variable of interest. Let's select AGE, fill up "Name" and "Label", and "Old and New Values". You can either indicate specific values, or ranges, and indicate "new values". 
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_1.PNG", 
+    dpi = NULL)
+
+```
+
+That's quite straightforward, right? Now try to recode variable GALLTRU into following categories: 1 to 4 - 1, 5 to 6 - 2, and 7-10 to 3. Recode, then label the new variable, and make a frequency table.
+
+### Computing variables
+
+We often have to calculate new variables out of old ones. Say, we want to make an index of trust towards institutions. We simply add up the values of variables which measure trust towards institutions and generate a new variable. In this case we have to use variables TRUHLTH, TRUBANK, TRUEDUC, TRUNAEC, TRUARMY, TRUCRTS, TRUNGOS, TRUPARL, TRUEXEC, TRUPRES, TRUPOLI, TRUPPS, TRUMEDI, TRULOCG, TRURELI, TRUOMB, TRUCBARM, TRUSTEU, TRUSTUN. Now click Compute Variable, enter new variable name in Target and in the calculator field enter the necessary expression. In this case, that summarizing TRU* variables
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_2.PNG", 
+    dpi = NULL)
+
+```
+
+That's it! Now make a histogram of the new variable, and copy it to your word document.
+
+
+## Phew. Done. How to submit my exercise?
+
+Zip your word document, the SPSS output file into one file and upload it to  [this link](https://www.dropbox.com/request/Ltvt58ErL83EmqfR6zWV) before the start of our next meeting.
