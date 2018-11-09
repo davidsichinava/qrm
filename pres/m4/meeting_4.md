@@ -48,7 +48,7 @@ Confidence Interval
 
 Confidence Interval for Proportion and Mean
 ========================================================
-- $\sigma_{\hat{\pi}} = {\sigma}/{n} = \sqrt{{(\pi(1-\pi)})/{n}}$
+- $\sigma_{\hat{\pi}} = {\sigma}/{n} = \sqrt{{\pi(1-\pi)}/{n}}$
 
 - $\sigma_{\hat{x}} = {s}/{\sqrt{n}}$
 
