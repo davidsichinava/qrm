@@ -1,0 +1,67 @@
+---
+title: 'Lab 5: Comparing two means'
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Instructions
+
+Follow the assignment step-by-step. Create a Microsoft Word document and name your $.doc(x)$ file in a following format: $your\_surname\_lab5.rmd$. For example,
+
+
+```{r cars, eval=FALSE}
+sichinava_lab5.doc(x)
+```
+
+In this document you will copy the results of your analysis.
+
+## Hypothesis testing
+In this assignment we are going to replicate Card and Krueger's 1994 paper which looked at the effect of rising minimum wage on employment. Download the dataset and the paper from this link: https://goo.gl/Zt5wbm. It contains information about the number of employees in all fast food restaurants across New Jersey and Pennsylvania.
+
+
+### Reading the dataset into SPSS
+
+As you might notice, the provided dataset isn't in SPSS format per se, but a _value-separated file_. It's a simple tabular format in which each column is separated with comma. Reading these files in SPSS is quite simple - you hit "File>Read text data" and follow the steps outlined by the wizard. Here you should consider that the file contains variable names in the first line, and columns are separated by comma. Voila! Now you can save the file to your computer as an SPSS dataset.
+
+### Transforming your data
+
+Let's have look at variable view - the first two varaibles (chain and location) are strings, while other variables are numeric. The idea is that we should compare minimum wage across two US states - Pennsylvania and New Jersey. Make frequency table of location variable. How many observations are in each group? Is there any value that the observation is in New Jersey?
+
+Now compute a new numeric variable which will hold value 0 if the restaurant is located in Pennsylvania and 1 if the restaurant is in New Jersey. Use "Recode to new variable" function for this purpose. Label new variable and attach value labels to it. How many observations do you have in each group?
+
+
+### Examining your data
+
+A common task for group comparison is calculating means for each group. Let's compare the number of full time employees after introducing minimum wage law in two states. Click Analyze>Compare means>Means, choose fullAfter as Dependent List, use newly calculate treatment variable as a  grouping variable and hit OK (see picture below). Would you say that the number of employees after introducting the regulation differ from each other?
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_1.PNG", 
+    dpi = NULL)
+
+```
+
+In order to check whether two groups statistically differ from each other we use _independent samples t-test_. Choose Independent-samples t-test from the same menu, and use our grouping variable to examine whether the two groups indeed differ. The output of t-test is quite straightforward: you have information about means in each group as well as test statistic for mean comparison. Look at the column Sig - what does the number indicate? Is it higher or lower than the cutoff $\alpha$ value? How do you think, do the employment numbers after the reform significantly differ from each other? 
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_2.PNG", 
+    dpi = NULL)
+
+```
+Now let's think why only comparing the _after_ outcomes might be misleading. In order to capture the _dynamics_ we might want to take repeated measurements. In order to do so, we can use Paired Samples t-test. Do the full time employment numbers differ from each other between the two time periods? 
+
+```{r fig.width=1, fig.height=10,echo=FALSE}
+knitr::include_graphics("img/gui_spss_3.PNG", 
+    dpi = NULL)
+
+```
+
+As you might notice, the final analysis doesn't capture the difference between our treatment (New Jersey) and control (Pennsylvania) groups. We migth want to do comparison separately for these states, as the overall dynamics in these states might be similar. In order to do so, we have to split the dataset into two and conduct the paired sampled t-test separately. Click Data>>Split file and split the dataset using the Treatment variable. Re-run the analysis - is there any difference in treatment and control groups before and after introducing the minimum wage law?
+
+Copy the results of these tests to your Word document and write a short interpretation of your analysis. Overall, how would you evaluate the effect of minimum wage law on employment? Substantiate your answert.
+
+## I know how to zip my work. How to submit those file?
+
+Submit your file to  [this link](https://www.dropbox.com/request/UCNOlVaXNuUbLpZIZjHy) before the start of our next meeting. Or if it's not working, send it via email: david.sichinava@outlook.com

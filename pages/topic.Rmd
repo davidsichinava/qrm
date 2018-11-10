@@ -78,3 +78,19 @@ output: html_document
 * [Datasets](https://www.dropbox.com/s/2jw5jy6l4n41lcr/CB_2015_Regional_Only_Responses_140416.sav?dl=0)
 * Submit your assignment to this [link](https://www.dropbox.com/request/Ltvt58ErL83EmqfR6zWV). _It is due this Friday evening_.
 
+### Topic 5: Significance tests
+
+![](ico/open-book.png) Reading:
+
++ Agresti & Finlay, chapters 6
+
+#### ![](ico/flask-outline.png) lab exercise:
+
+* Data transformation in SPSS;
+	
+* <img src="ico/teacher.png" alt="Drawing" style="width: 16px; vertical-align:middle;"/> 
+<a href="https://davidsichinava.github.io/qrm/pres/m5/meeting_5.html">Slides</a>
+* [Lab assignment](https://www.dropbox.com/s/aybkalg59rs0gw2/lab5.docx?dl=0)
+* [Datasets](https://www.dropbox.com/s/kshramggvcr3bby/minwage.zip?dl=0)
+* Submit your assignment to this [link](https://www.dropbox.com/request/UCNOlVaXNuUbLpZIZjHy). _It is due this Friday evening_.
+
