@@ -86,7 +86,7 @@ output: html_document
 
 #### ![](ico/flask-outline.png) lab exercise:
 
-* Data transformation in SPSS;
+* Mean comparison and significance tests in SPSS;
 	
 * <img src="ico/teacher.png" alt="Drawing" style="width: 16px; vertical-align:middle;"/> 
 <a href="https://davidsichinava.github.io/qrm/pres/m5/meeting_5.html">Slides</a>
