@@ -1,0 +1,71 @@
+<div class="header" style="margin-top:0 px;font-size:60%;">QRM: Seventh Meeting </div>
+
+Research Methodology in Social Sciences
+========================================================
+author: Dr. David Sichinava
+date: November 30, 2018
+autosize: true
+transition: none
+css: css/style.css
+font-family: 'BPG_upper'
+<span style="font-weight:bold; font-family:BPG_upper;">Seventh Meeting</span>
+
+
+
+
+
+Today's meeting
+========================================================
+
+- Correlation
+
+
+How do we assess relationship between two variables?
+========================================================
+* The simplest way to examine relationship between two variables is to check whether they _covary_,
+	+ That is, whether they change simultaneously
+* Covariance coefficient can be measured as follows:
+	+ $cov(x, y) = \frac{\sum(x_{i}-\bar{x})(y_{i}-\bar{y})}{N-1}$
+
+How do we assess relationship between two variables?
+========================================================
+* As you might notice, covariance measurement depends on the _scale_ of variables, therefore we should _standardize_ coefficients
+* Here we should include standard deviations for both variables as follows:
+	+ $cov(x, y) = \frac{\sum(x_{i}-\bar{x})(y_{i}-\bar{y})}{(N-1)s_{x}s_{y}}$
+
+Types of correlations
+========================================================
+* Bivariate: examines the relationship between two variables
+* Partial: examines relationship between two variables while _controlling_ for the effect of other variable
+	+ In this case, we have to assess the impact moderating variable has on correlation coefficients
+
+Types of correlation: distribution is crucial
+========================================================
+* Spearman's rho
+* Kendall's tau
+	+ Small population with multiple ranked variables
+	
+Correlation vs. Causation
+========================================================
+<img src="img/niccage.PNG" alt="Drawing" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
+	
+Correlation vs. Causation
+========================================================
+<img src="img/cor_caus.PNG" alt="Drawing" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
+
+Factor analysis
+========================================================
+* Often we have to deal with _latent_ variables, that is phenomena which cannot be measured directly
+* Put it simple, calculating correlations between variables might yield _clusters_ of variables
+	+ Therefore, variables which are highly correlated which might be measuring same latent concept
+	
+Factor analysis
+========================================================
+<img src="img/factor.PNG" alt="Drawing" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
+
+Factor analysis
+========================================================
+* It is not neccessary to retain all factors to our analysis
+* Examine so called _scree plot_ 
+* In order to improve the quality of your factor analysis by _rotating factors_
+

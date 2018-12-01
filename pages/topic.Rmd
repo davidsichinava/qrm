@@ -82,15 +82,32 @@ output: html_document
 
 ![](ico/open-book.png) Reading:
 
-+ Agresti & Finlay, chapters 6
++ Agresti & Finlay, chapter 6
 
 #### ![](ico/flask-outline.png) lab exercise:
 
 * Mean comparison and significance tests in SPSS;
 	
 * <img src="ico/teacher.png" alt="Drawing" style="width: 16px; vertical-align:middle;"/> 
-<a href="https://davidsichinava.github.io/qrm/pres/m5/meeting_5.html">Slides</a>
+<a href="https://davidsichinava.github.io/qrm/pres/m6/meeting_6.html">Slides</a>
 * [Lab assignment](https://www.dropbox.com/s/aybkalg59rs0gw2/lab5.docx?dl=0)
 * [Datasets](https://www.dropbox.com/s/kshramggvcr3bby/minwage.zip?dl=0)
 * Submit your assignment to this [link](https://www.dropbox.com/request/UCNOlVaXNuUbLpZIZjHy). _It is due this Friday evening_.
 
+
+
+### Topic 8: Correlation and data reduction techniques
+
+![](ico/open-book.png) Reading:
+
++ Field, chapters 4 and 15
+
+
+#### ![](ico/flask-outline.png) lab exercise:
+
+* Doing bivariate and partial correlations in SPSS, exploratory factor analysis;
+	
+* <img src="ico/teacher.png" alt="Drawing" style="width: 16px; vertical-align:middle;"/> 
+<a href="https://davidsichinava.github.io/qrm/pres/m7/meeting_7.html">Slides</a>
+* [Lab assignment](https://www.dropbox.com/s/bz0ttjnblnhi619/lab6.docx?dl=0)
+* Submit your assignment to this [link](https://www.dropbox.com/request/e3tvTLJyY9jlh8wydWBa). _It is due this Friday evening, December 7th_.

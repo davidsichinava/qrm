@@ -1,0 +1,61 @@
+<div class="header" style="margin-top:0 px;font-size:60%;">QRM: Sixth Meeting </div>
+
+Research Methodology in Social Sciences
+========================================================
+author: Dr. David Sichinava
+date: November 16, 2018
+autosize: true
+transition: none
+css: css/style.css
+font-family: 'BPG_upper'
+<span style="font-weight:bold; font-family:BPG_upper;">Sixth Meeting</span>
+
+
+```{r}
+
+```
+
+
+Today's meeting
+========================================================
+
+- Comparing groups
+
+
+Dependent and independent samples
+========================================================
+* Two samples are dependent if natural matching occurs between two groups. For instance, repeated measurements of same subjects
+* Samples are independent if they are drawn _independently_.
+
+Compare means of two independent groups: confidence intervals
+========================================================
+* For large samples, or small samples from random distributions the sampling distribution of $(\bar{y}_{2}-\bar{y}_{1})$ has a normal shape, we use _t-distribution_ to estimate standard errors and confidence intervals
+* Confidence interval for $\mu_{2}-\mu_{1}$ will be:
+	+ $(\bar{y}_{2}-\bar{y}_{1})+/- t(se)$, where
+$se=\sqrt{\frac{{s_{1}^2}}{{n}_{1}}+\frac{{s_{2}^2}}{{n}_{2}}}$
+* Usually, interpreting differences between two groups is usually _safer_ and _more interpretable_ than testing null hypothesis
+
+Compare means of two independent groups: null hypothesis testing
+========================================================
+* $t=\frac{(\bar{y}_{2}-\bar{y}_{1})-0}{se}$
+* Here we compute test statistic and then look for corresponding p-value
+
+Compare two dependent proportions
+========================================================
+* Fisher's exact test OR Chi-square test
+
+What about different scales?
+========================================================
+<img src="img/rank_order.jpg" alt="Drawing" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
+
+What about different scales?
+========================================================
+<img src="img/rank_order.png" alt="Drawing" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+What happens if the assumptions (of normality) are not met?
+========================================================
+* We use non-parametric tests, such as Wilcoxon-Mann-Whitney test
+	+ Instead of comparing _means_, we compare _median_ values
+	
+
