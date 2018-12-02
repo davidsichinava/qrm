@@ -96,7 +96,7 @@ output: html_document
 
 
 
-### Topic 8: Correlation and data reduction techniques
+### Topic 6: Correlation and data reduction techniques
 
 ![](ico/open-book.png) Reading:
 
